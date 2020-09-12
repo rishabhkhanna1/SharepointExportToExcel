@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "exportexcel-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/exportexcel/ExportexcelCommandSet.js",
+          "manifest": "./src/extensions/exportexcel/ExportexcelCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ExportexcelCommandSetStrings": "lib/extensions/exportexcel/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://khanna01.sharepoint.com/sites/rishabhdevsite/Lists/Sports/AllItems.aspx",
+      "customActions": {
+        "f4b81e40-d25f-46f5-a345-681ce4e9b6af": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "exportexcel": {
+      "pageUrl": "https://khanna01.sharepoint.com/sites/rishabhdevsite/Lists/Sports/AllItems.aspx",
+      "customActions": {
+        "f4b81e40-d25f-46f5-a345-681ce4e9b6af": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
